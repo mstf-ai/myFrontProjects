@@ -1,0 +1,490 @@
+
+/* 495 lines */
+
+/* start main rules */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.clearfix {clear: both}
+/* end main rules */
+
+/* start header */
+.header .slider {
+    background-color: #eee;
+    height: 400px;
+    background-image: url('../img/w-p-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header .slider .bg-glass {
+    background-color: #2205;
+}
+
+.header .slider .intro {
+    text-align: center;
+    color: #fff;
+    height: 300px;
+    padding-top: 130px;
+}
+
+.header .slider .intro h2 {
+    margin: 10px auto;
+    padding: 10px;
+    width: 480px;
+    font-size: 40px;
+    border-top: 4px solid #fff ;
+    border-bottom: 4px solid #fff ;
+}
+
+.header .slider .intro button {
+    background: none;
+    border: #fff 2px solid;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header .nav {
+    background-color: #252F31;
+    color: #fff;
+    overflow: hidden;
+}
+
+.header .nav h2 {float: left; text-transform: uppercase;}
+
+.header .nav h2 span {color:#ff0;}
+
+.header .nav ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+}
+.header .nav ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header .nav ul .active a {color: #ff0;}
+.header .nav ul li a:hover {
+    color: #ff0;
+}
+/* end header */
+
+/* start features */
+.features {
+    overflow: hidden;
+    padding: 50px 0 50px 0;
+}
+
+.features .feature {
+    float: left;
+    width: 33.3333%;
+    height: 150px;
+}
+
+.features .feature h2 {
+    text-transform: uppercase;
+    color: #555;
+}
+
+.features .feature p {
+    line-height: 1.6;
+    color: #777;
+    /* text-align: justify;
+    padding: 0 20px 0 0; */
+}
+/* start features */
+
+/* start About me */
+.about-me {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.about-me .image {
+    float: left;
+    width: 40%;
+}
+.about-me .image img {width: 100%;}
+
+.about-me .info {
+    float: right;
+    width: 60%;
+}
+
+.about-me .info h2 {
+    margin: 40px 0 20px 40px;
+    color: #444;
+}
+
+.about-me .info > p {
+    margin: 0 0 10px 40px;
+}
+
+.about-me .info > p:last-of-type {
+    margin-top: 40px;
+}
+
+.about-me .info p {
+    line-height: 1.7;
+    color: #666;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px;
+    margin: 30px 0 0 40px;
+}
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.about-me .info .hobbies .content h3{color: #444;}
+
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 15%;
+    margin-right: 10px;
+}
+
+.about-me .info .hobbies .content .icon img,
+.about-me .info .hobbies .content .icon i {
+    max-width: 100%;
+    margin: 30px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 75%;
+}
+
+/* end About me */
+
+/* start my skills */
+
+.my-skills {
+    padding: 30px 0 50px 0;
+    overflow: hidden;
+}
+
+.my-skills .skills h2 {
+    margin: 40px 0 20px 40px;
+    color: #444;
+}
+
+.my-skills .skills p {
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.my-skills .skills p:last-of-type {
+    margin-top: 25px;
+}
+
+.my-skills .skills button {
+    padding: 10px 30px;
+    margin: 20px 0 0 40px;
+}
+
+.my-skills .skills, .my-skills .progress {
+    float: left; 
+    width: 50%;
+}
+
+.my-skills .progress .technique {margin-left: 60px;}
+
+.my-skills .progress .technique h3 {
+    color: #444;
+}
+
+.my-skills .progress .technique > div {
+    background-color: #f2f2f2;
+    height: 30px;
+}
+
+.my-skills .progress .technique > div span {
+    display: block;
+    background-color: #f80;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* end my skills */
+
+/* start Resume */
+
+.resume {
+    background-color: #f2f2f2;
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+
+.resume h2 {
+    /* text-transform: uppercase; */
+    color: #444;
+}
+
+.resume p {
+    line-height: 2;
+    color: #666;
+    padding: 0 50px;
+}
+
+.resume button {
+    margin: 20px 0 0 0;
+    padding: 15px 30px;
+}
+
+/* end Resume */
+
+/* start my Education */
+
+.my-education {
+    padding: 30px 0 50px 0;
+    overflow: hidden;
+}
+
+.my-education .main {
+    float: left; 
+    width: 50%;
+    margin-right: 5%;
+}
+
+
+.my-education .main h2 {
+    margin: 40px 0 20px 40px;
+    color: #444;
+}
+
+.my-education .main p {
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+    color: #666;
+}
+
+.my-education .main p:last-of-type {
+    margin-top: 25px;
+}
+
+.my-education hr {margin: 30px;background-color: #999;height: 1px;border: 0;}
+
+.my-education .exp {
+    float: left; 
+    width: 45%;
+}
+
+.my-education .exp h3 {
+    margin-top: 80px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.my-education .exp span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.my-education .exp span:first-of-type {color: #888;}
+
+.my-education .exp span:last-of-type {
+    background-color: #f80;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+
+.my-education .exp p {
+    line-height: 1.7;
+    color: #666;
+}
+
+/* end my Education */
+
+/* start Testimonials */
+
+.testimonials {
+    background-color: #f2f2f2;
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.testimonials q {
+    color: #888;
+    font: italic bold large/1.8 Arial ;
+}
+
+.testimonials h3 {color: #444;margin-bottom: 30px;}
+
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.testimonials ul li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: #f80 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.testimonials ul li.active {background-color: #f80;}
+.testimonials ul li:hover {background-color: #f80;}
+
+/* end Testinmonials */
+
+/* start Portfolio */
+
+.portfolio {
+    padding: 50px 0 70px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    color: #444;
+}
+
+.portfolio p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.portfolio .our-work {
+    overflow: hidden;
+}
+
+.portfolio .our-work > div {
+    float: left;
+    width: 33.33333%;
+    margin: 0 0 10px 0;
+}
+
+.portfolio .our-work > div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    box-shadow: 10px 12px 10px #ccc;
+}
+
+/* end Portfolio */
+
+/* start contact me */
+
+.contact {
+    background-color: #252f31;
+    overflow: hidden;
+    padding: 50px 0 50px 0;
+}
+
+.contact .info {
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.contact h2 {color: #fff;margin: 40px 0 0 40px ;}
+
+.contact p {color: #6a6e71;margin-left: 40px;line-height: 1.7;}
+
+.contact p strong {color: #ccc;}
+
+.contact .form {
+    width: 45%;
+    float: left;
+}
+
+.contact .form label {
+    display: block;
+    color:#ccc ;
+    margin: 10px 0;
+}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"],
+.contact .form textarea {
+    background-color: #455;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact .form input[type="submit"] {
+    background-color: #112;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* end contact me */
+
+/* start footer */
+
+.footer {
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 0 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* end footer */
+
+/* start framework */
+
+.my-btn{
+    background: none;
+    border: 2px #f80 solid;
+    color: #f80;
+    font-weight: bold;
+}
+
+/* end framework */
